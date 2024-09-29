@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Blaze Fitness 💪",
+    "slug": "blaze-fitness",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/mobile-logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/mobile-logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.gaju91.blazefitness"
+    },
+    "web": {
+      "favicon": "./assets/mobile-logo.png"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "a47a7d1f-9583-4bcb-b1b1-03b65c0ae94c"
+      }
+    },
+    "assetBundlePatterns": [
+      "/assets/*"
+    ]
+  }
+}
